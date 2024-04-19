@@ -1,0 +1,111 @@
+.navbar{
+    padding-top: 15px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    opacity: 1;
+    min-height: 64px;
+    visibility: visible;
+    background: #ffff;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.innernavbar{
+    display:inline-flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo1{
+    color: #ff385c;
+    font-size: 3rem;
+    padding-left: 160px;
+
+}
+.txt{
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-right: 25px;
+}
+
+
+.icon{
+    display: inline;
+    align-items: center;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-left: 12px;
+}
+.txtbtn{
+    font-size: 2rem;
+    margin-left: 6px;
+    
+}
+.btn{
+    min-width: 18px;
+    background-color: #E51D51;
+    display: inline;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 8px;
+    padding-right: 25px;
+}
+.btntopmain{
+    display: flex;
+    align-items: center;
+    padding-right: 170px;
+}
+.btninner{
+    display: flex;
+    align-items: center;
+
+}
+
+  
+    /* Media Query for Mobile Devices */
+    @media (max-width: 480px) and  (max-width: 768px)   {
+        .innernavbar {
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+        }
+        
+        .btntopmain {
+          display: flex;
+          flex-direction: column;
+          padding: 0;
+          align-items: center;
+          gap: 10px;
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          padding: 20px;
+          background-color: #fff;
+          box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .navbar {
+          padding-bottom: 0px;
+        }
+        .logo1{
+            padding-left: 0px;
+        }
+      }
+
+      
+
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .logo1{
+        padding-left: 50px;
+    }
+}

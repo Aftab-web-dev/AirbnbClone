@@ -1,0 +1,91 @@
+.line{
+    border: 1px solid #cacaca; 
+}
+.line1{
+    border-top: 1px solid #cacaca;
+}
+.topmain{
+    padding-top: 60px;
+    background: #F6F6F6;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 200px;
+    font-size: 1.5rem;
+    padding-top: 30px;
+}
+
+.innermain{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.headline{
+    font-weight: 600;
+}
+/* social logo */
+.social{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 200px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.lastleft{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    gap: 20px;
+}
+.lastright{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.6rem;
+    gap: 15px;
+    font-weight: 600;
+    padding-left: 250px;
+
+}
+.rupeelogo{
+    display: flex;
+    align-items: center;
+
+}
+
+@media(max-width: 480px){
+    .main{
+        display: grid;
+        grid-template-columns:none;
+        padding-left:20px;
+        padding-top: 30px;
+    }
+    .social{
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 100px;
+
+    }
+    .lastright{
+        padding: 0;
+    }
+}
+@media(max-width: 768px){
+    .main{
+       
+        padding-left:20px;
+        padding-top: 30px;
+    }
+    .social{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr );
+        align-items: center;
+        
+    }
+
+}

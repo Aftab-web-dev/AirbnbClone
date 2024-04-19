@@ -1,0 +1,108 @@
+.rootmain{
+	display: grid;
+	padding-left: 120px;
+	grid-template-columns: repeat(2,1fr);
+	grid-column-gap:5rem;
+	padding-top: 150px;
+	align-items: center;
+	padding-right: 180px;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.title{
+	color: #ff245e;
+	font-size: 5.6rem; 
+	font-weight: 600;
+
+}
+.title1{
+	font-size: 5.6rem;
+	
+}
+.price{
+	font-size: 7rem;
+	font-weight: bold;
+}
+.span{
+	text-decoration: underline;
+	font-weight: bold;
+}
+.txt{
+	font-size: 1.6rem;
+	text-decoration: underline;
+	margin-bottom: 15px;
+}
+.num{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.5rem;
+}
+/* small component css */
+.smallcomp{
+	border: 1px solid rgb(221, 221, 221);
+    width: 45%;
+    height: 19px;
+	cursor: pointer;
+    border-radius: 30px;
+	padding: 10px 15px 26px 24px;
+	
+}
+
+.smallcomptop{
+	display: flex;
+	justify-items: center;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+}
+
+.smallcomplogo{
+	color: #E51D51;
+	font-size: 2rem;
+
+}
+.smallcomptxt{
+	font-size: 1.4rem;
+	font-weight: 600;
+
+}
+.smallcomptxt1{
+	font-size: 1.3rem;
+	color: #717171;
+	
+}
+
+
+/* Media Query for Mobile Devices */
+@media(max-width: 480px){
+
+	.main{
+		padding-top: 100px;
+		/* padding-right: 109px; */
+	}
+	.rootmain{
+		padding: 0 !important;
+	}
+	.title1 , .title{
+		font-size: 3.6rem;
+	}
+	.price{
+		font-size: 5rem;
+	}
+
+}
+@media(max-width: 768px){
+	.rootmain{
+		align-items: center;
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		gap: 20px;
+		grid-column-gap:0;
+		padding-top: 100px;
+	}
+
+}

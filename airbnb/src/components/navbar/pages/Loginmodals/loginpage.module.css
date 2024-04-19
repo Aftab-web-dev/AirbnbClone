@@ -1,0 +1,122 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+    border-radius: 9px;
+    width: 420px;
+    padding: 15px 0px 25px 0px;
+    -webkit-box-shadow: -1px 2px 9px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 9px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 9px -1px rgba(0,0,0,0.75);
+    background-color: none;
+}
+.topmain{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+.overlay{
+        position: fixed;
+        
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.2);
+        z-index: 2;
+        cursor: pointer;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.topline{
+    border-top: 1px solid #bbb;
+    width: 100%;
+}
+.toplogo{
+    font-size: 20px;
+    padding-right: 126px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+.toptxt{
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    
+}
+
+.maininput{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    
+
+}
+.maintxt{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+
+.p{
+    font-size: 9px;
+     width: 370px;
+}
+.span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: #E51D51;
+    margin-top: 20px;
+}
+
+.line{
+    border-top: 1px solid #bbb;
+    width: 167px;
+}
+.lineupper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    color: #504f4f;
+
+}
+.socialmain{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px; 
+    width: 370px;
+    height: 38px;
+}
+
+.logo{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 100px;
+}

@@ -1,0 +1,20 @@
+html {
+  font-family:'Urbanist', sans-serif;
+  color-scheme: light dark;
+  color: #1a1a1a;
+  background-color: #ffff;
+  font-size: 62.5%;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+

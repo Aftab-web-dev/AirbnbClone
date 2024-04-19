@@ -1,0 +1,96 @@
+
+/* this css is only for range slider component which is in homesectop page */
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  input[type="range"] {
+    -webkit-appearance: none;
+    height: 7px;
+    width: 330px;
+    background: grey;
+    border-radius: 5px;
+    background-image: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    background-repeat: no-repeat;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 #000000;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  input[type="range"]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb:hover {
+    box-shadow: black 0px 0px 0px 5px;
+    color: white;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb:active {
+    box-shadow:black 0px 0px 0px 5px;
+    transition: box-shadow 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      left 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      bottom 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      background-color: white;
+  }
+   .swiper{
+    padding-top: 60px !important;
+    z-index: -1 !important;
+   }
+  .swiper-slide {
+    /* width: 88.875px !important; */
+    padding-top: 20px !important;
+    text-align: center !important;
+    font-size: 18px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    max-width: 100% !important;
+    background-color: white !important;
+    color: black !important;
+    fill: black !important;
+    stroke: black !important;
+    padding: 10px !important;
+    border: 2px solid rgb(165, 165, 165) !important;
+    border-radius: 50% !important;
+    width: 1px !important;
+    height: 1px !important;
+    margin-top: 20px !important;
+}
+.swiper-container {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+:root {
+  --swiper-navigation-size: 10px !important;
+}
+.react-responsive-modal-modal{
+  border-radius: 13px;
+  padding: 0px !important;
+  margin-top: 15rem !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .swiper-slide{
+    display: none !important;
+  }
+}
+

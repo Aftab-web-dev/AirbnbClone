@@ -1,0 +1,42 @@
+.nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    position: fixed;
+    padding-bottom:20px;
+    background-color: #ffff;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    color: #ff385c;
+    font-size: 35px;
+
+}
+.logotxt {
+    color: #ff385c;
+    font-size: 25px;   
+}
+
+.line{
+    padding-top: 30px;
+    border-bottom: 1px solid rgba(199, 195, 195, 0.671);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 731px) {
+   .main{
+    display: none;
+   } 
+
+}
+

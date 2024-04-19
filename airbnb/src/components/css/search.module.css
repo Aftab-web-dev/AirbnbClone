@@ -1,0 +1,119 @@
+.outersearch{
+    border:  2px solid rgba(148, 147, 147, 0.253) ;
+    border-radius:30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 13px 20px 13px 28px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    box-shadow: 0px 2px 3px 3px #dbdbdb65;;
+}
+.outersearch:hover{
+    box-shadow: 0px 2px 3px 3px #dbdbdb65;
+}
+
+.innersearch{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.anywhere{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.anyweek{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.guest{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.guestname{
+    color: gray;
+}
+
+.line{
+    border-left: 2px solid rgba(148, 147, 147, 0.253) ;
+    height: 20px;
+}
+
+.logo {
+    transform: rotate(-90deg);
+    color: #ff385c;
+    font-size: 34px;
+    margin-left: 15px;
+}
+
+.searchmobileout{
+    display: none;
+} 
+
+/* Responsive search bar design css */
+@media (max-width: 720px) {
+    .outersearch{
+        display: none;
+    }
+    
+.searchmobileout{
+    border:  2px solid rgba(148, 147, 147, 0.253) ;
+    border-radius:50px;
+    width: 70%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 5px 10px 25px;
+    margin: 5px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    box-shadow: 0px 2px 3px 3px #dbdbdb65;;
+    
+}
+.searchmobilein{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchmobileleft{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.searchmobilelogo{
+    font-size: 2rem;
+    padding-right: 20px;
+}
+.searchmobiletxt{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+.searchtxt{
+    font-size: 2rem;
+    color: rgb(113, 113, 113);
+    font-weight: 100;
+
+}
+.searchmobiletxtinnerpart{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 1rem;
+    align-items: center;
+    color: rgb(113, 113, 113);
+
+}
+
+}
+

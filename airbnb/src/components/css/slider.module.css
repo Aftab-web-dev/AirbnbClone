@@ -1,0 +1,92 @@
+
+.totalmain{
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center; 
+}
+
+.logo {
+    /* Add your existing styles here */
+    font-size: 4rem;
+    border: none;
+    border-radius: 60%;
+    /* Add shadow effect when hovering */
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .logo:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .main{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .innermain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+  .txt{
+  font-size: 1.2rem;
+  }
+  .img {
+    opacity: 0.6;
+    display: block;
+    width: 24px;
+    height: 24px;
+    }
+   .img:hover , .txt:hover{
+    opacity: 1;
+   }
+ 
+   /* filter btn */
+
+   .filterbtn{
+    margin-top: 60px;
+    height: 25px;
+    display: inline-flex;
+    border: 1px solid rgb(197, 189, 189);
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 12px 12px;
+
+   }
+   .filterbtn:hover{
+    background-color: rgba(238, 234, 234, 0.295);
+   }
+   .filtericon{
+    font-size: 2rem;
+
+   }
+   .filtertxt{
+    font-size: 2rem;
+
+   }
+   
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .main{
+    display: none;
+  }
+  .filterbtn{
+    margin-top: 100px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .main{
+    display: none;
+
+  }
+  .filterbtn{
+  margin-top: 50px;
+  }
+  
+}

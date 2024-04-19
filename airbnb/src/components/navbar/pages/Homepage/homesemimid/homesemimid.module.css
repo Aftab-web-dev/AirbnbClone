@@ -1,0 +1,133 @@
+
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 120px;
+    padding-right: 130px;
+    margin-top: 50px;
+    padding-top: 70px;
+    background: #F6F6F6;
+}
+.txt{
+    font-size: 4.5rem;
+    width: 70%;
+}
+
+
+/* accodin css */
+.topaccmain{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.accmain{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.icon{
+    font-size: 25px;
+}
+.accline{ 
+    width: 100%;
+    margin-top: 40px ;
+    border-bottom: 1px solid #cacaca; 
+}
+.opentxt{
+    color: #9AA1A5;
+    font-size: 2rem;
+    margin-top: 10px;
+    font-weight: 1;
+    
+}
+.quetxt{
+    font-size: 2.5rem;
+    font-weight: 1;
+}
+/* small compont css */
+.smalltop{
+    padding-top: 70px;
+    width: 100%;
+    background: #F6F6F6;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.smallmain{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 85%;
+    border: 1px solid  #fff;
+    background: #ffff;
+    border-radius: 16px;
+    
+}
+.img{
+    width: 100%;
+    border-radius: 16px;
+}
+.innermain{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.smalltxt{
+    font-size: 4rem;
+
+}
+.smalltxt1{
+    padding-top: 20px;
+    font-size: 1.8rem;
+    font-weight: 1;
+    color: #9AA1A5;
+
+}
+.smallbtn{
+    width: 30%;
+    padding: 10px;
+    border-radius: 8px;
+    color: black;
+    border: 1px solid black;
+    background-color: #ffff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.smallbtn:hover{
+    background-color: rgb(212, 208, 208);
+}
+
+@media(max-width: 480px){
+    .main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        align-items: center;
+        padding: 40px;
+        margin: 0;
+    }
+    .smallmain{
+        grid-template-columns: none;
+    }
+    .smallbtn{
+        width: 90%;
+        margin: 10px;
+    } 
+
+}
+@media(max-width: 768px){
+    .smallbtn{
+        width: 90%;
+        margin: 10px;
+    } 
+
+}

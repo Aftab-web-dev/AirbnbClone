@@ -1,0 +1,140 @@
+a{
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.6rem;
+    font-weight: 100;
+    padding-right: 100px;
+}
+
+.home{
+    border-radius:50px ;
+    height: 30px;
+    display: flex;
+    padding: 0px 10px 0px 10px;
+    align-items: center;
+    color: black;
+}
+.home:hover{
+    background-color: #dbdbdb65;
+}
+.earth{
+    border-radius:50px ;
+    height: 30px;
+    display: flex;
+    padding: 0px 8px 0px 8px;
+    align-items: center;
+
+}
+.earth:hover{
+    background-color: #dbdbdb65;
+}
+
+
+
+.outerlogin{
+    border:  2px solid rgba(148, 147, 147, 0.253) ;
+    padding: 5px 5px 5px 14px;
+    border-radius: 50px;
+}
+.outerlogin:hover{
+    box-shadow: 0px 2px 3px 3px #dbdbdb65;
+}
+
+.innerlogin{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo{
+    font-size: 23px;
+}
+.mobilemain{
+    display: none;
+}
+.popup{
+    top: 70px;
+    right: 200px;
+    list-style: none;
+    position: absolute;
+    background-color: #ffff;
+    display: block;
+    box-shadow: 0px 2px 3px 3px #dbdbdb65;
+    font-size: 1.6rem;
+    color: #717171 !important;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+}
+.link {
+    color: #717171;
+    text-decoration: none !important;
+    padding: 12px;
+}
+.popup > li {
+    padding: 12px;
+}
+.link:hover{
+    background-color: #71717136;
+    border-radius: 5px;
+}
+.line{
+    border-bottom: 1px solid rgb(202, 202, 202);
+    width: 200px;
+    position: relative;
+
+}
+
+@media (max-width: 720px) {
+    .main{
+        display: none;
+    }
+    
+/* responsive nav bar */
+.mobilemain{
+    color: #717171 ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top:15px ;
+    justify-content: space-evenly;
+    background-color: #fff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.innermain{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+
+}
+.mobilelogo{
+    font-size: 2.3rem;
+}
+.mobilelogo:active{
+    color: rgb(255, 56, 92);
+    cursor: pointer;
+}
+.mobiletxt{
+    font-size: 1.5rem;
+
+}
+    
+}
+
+
+
+
